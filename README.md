@@ -10,14 +10,29 @@ UIJs is framework for client application developement.
 3. object orianted structure
 4. easy to integrate other framewark as like Angular, React and other
 
+### Intigrity
 
+    //// If not using external jquery then you can use this file otherwist skip this
+    <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/env.js"></script>
+     
+    <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/ajax.js"></script>     
+    <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/lib.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/uiobject.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/uiDoc.js"></script>
+    
+    //// For mobile application development using YMI (Yajan Mobile Interface)
+    <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/ymi.js"></script>
+    <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/ymi-f7.js"></script>
 
 
 ### Examples
 
     <html>
       <head>
-        <script type="text/javascript" src="uiobject.js"></script>
+            <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/ajax.js"></script>     
+            <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/lib.js"></script>
+            <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/uiobject.js"></script>
+            <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/uiDoc.js"></script>
       </head>
       <body>
         <div id="root">
