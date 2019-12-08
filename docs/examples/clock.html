@@ -1,0 +1,31 @@
+<head>
+  <head>
+    <script type="text/javascript" src="ajax.js"></script>     
+    <script type="text/javascript" src="lib.js"></script>
+    <script type="text/javascript" src="uiobject.js"></script>
+    <script type="text/javascript" src="uiDoc.js"></script>
+
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/javascript">
+      var base = new UIObject("#root");
+      var display = new UIObject("h1",base);
+      
+      var sec = 0;
+      function tick()
+      {
+          var hh = parseInt(sec/3600)
+          var mm = parseInt(sec/60) % 60
+          var ss = sec % 60
+          sec++
+          display.innerHTML(hh+":"+mm+":"+ss);
+      }
+
+      setInterval(function()
+      {
+        tick()
+      },1000)
+    </script>
+  </body>
+</head>
