@@ -29,10 +29,10 @@ UIJs is framework for client application developement.
 
     <html>
       <head>
-            <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/ajax.js"></script>     
-            <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/lib.js"></script>
-            <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/uiobject.js"></script>
-            <script type="text/javascript" src="https://raw.githubusercontent.com/awgpsk/UIJS/master/uiDoc.js"></script>
+            <script type="text/javascript" src="ajax.js"></script>     
+            <script type="text/javascript" src="lib.js"></script>
+            <script type="text/javascript" src="uiobject.js"></script>
+            <script type="text/javascript" src="uiDoc.js"></script>
       </head>
       <body>
         <div id="root">
